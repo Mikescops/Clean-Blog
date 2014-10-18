@@ -37,7 +37,7 @@
                             {{ record.title }}
                         </h2>
                         <h3 class="post-subtitle">
-                            {{ record.teaser }}
+                            {{ record.teaser|excerpt(100) }}
                         </h3>
                     </a>
                     <p class="post-meta">{% include '_recordfooter.twig' with {record: record} %}</p>
@@ -47,11 +47,9 @@
                 {% endfor %}
 
                 <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+                {{ pager() }}
+
+
             </div>
         </div>
     </div>
