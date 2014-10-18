@@ -1,0 +1,16 @@
+{
+    "name": "mikescops/bootstrapbolttheme",
+    "description": "Clean personal news blog. ",
+    "type": "bolt-theme",
+    "keywords": ["theme", "bootstrap", "news", "simple", "blog", "clean"],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Corentin Mors & Tahtah",
+            "email": "mikescops@pixelswap.fr"
+        }
+    ]
+}
