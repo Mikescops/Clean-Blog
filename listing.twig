@@ -1,0 +1,40 @@
+{% include '_head.twig' %}
+
+{% include '_menu.twig' %}
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+               
+               
+                {% for record in records %}
+
+
+               <div class="post-preview">
+                    <a href="{{ record.link }}">
+                        <h2 class="post-title">
+                            {{ record.title }}
+                        </h2>
+                        <h3 class="post-subtitle">
+                            {{ record.teaser|excerpt(100) }}
+                        </h3>
+                    </a>
+                    <p class="post-meta">{% include '_recordfooter.twig' with {record: record} %}</p>
+                </div>
+                <hr>
+               
+                {% endfor %}
+
+                <!-- Pager -->
+                {{ pager() }}
+
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+ {% include '_footer.twig' %}
+
