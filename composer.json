@@ -12,5 +12,10 @@
             "name": "Corentin Mors & Tahtah",
             "email": "mikescops@pixelswap.fr"
         }
-    ]
+    ],
+    "extra": {
+        "bolt-screenshots": [
+            "clean-blog-home.jpg"
+        ]
+    }
 }
