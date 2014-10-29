@@ -9,8 +9,10 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Corentin Mors & Tahtah",
-            "email": "mikescops@pixelswap.fr"
+            "name" : "Corentin Mors",
+            "email" : "mikescops@pixelswap.fr"
+        }, {
+            "name" : "Thaís Santos"
         }
     ],
     "extra": {
