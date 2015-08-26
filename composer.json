@@ -23,6 +23,6 @@
         "bolt-screenshots": [
             "clean-blog-home.jpg"
         ],
-        "bolt-icons": "icon-clean-blog.png"
+        "bolt-icon": "icon-clean-blog.png"
     }
 }
