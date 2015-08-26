@@ -15,9 +15,14 @@
             "name" : "Thaís Santos"
         }
     ],
+    "support": {
+        "email": "mikescops@pixelswap.fr",
+        "forum": "http://erupsis.com/forum/"
+    },
     "extra": {
         "bolt-screenshots": [
             "clean-blog-home.jpg"
-        ]
+        ],
+        "bolt-icons": "icon-clean-blog.png"
     }
 }
