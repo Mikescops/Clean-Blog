@@ -10,7 +10,7 @@
         {% if item.submenu is defined %}
             <ul class="dropdown-menu">
                 {% for item in item.submenu %}
-                    <li>
+                    <li class="{{ item.class }}">
                         <a href="{{ item.link }}" {% if item.title is defined %}title='{{ item.title|escape }}'{% endif %}>
                             {{item.label}}
                         </a>
